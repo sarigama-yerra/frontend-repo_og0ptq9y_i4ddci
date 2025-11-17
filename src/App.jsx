@@ -2,6 +2,8 @@ import { motion, useScroll, useSpring } from 'framer-motion'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Sections from './components/Sections'
+import Interactive3DHR from './components/Interactive3DHR'
+import HRGlobe from './components/HRGlobe'
 import CTA from './components/CTA'
 
 function ScrollProgress() {
@@ -26,7 +28,9 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Interactive3DHR />
         <Sections />
+        <HRGlobe />
         <CTA />
       </main>
       <footer className="border-t border-black/5 py-10">
